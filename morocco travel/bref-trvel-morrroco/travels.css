@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+ 
+
+}
+.h11{
+    color: #707070;
+    margin-left: 45%;
+    margin-top: 50px;
+    display: flex;
+    font-size: 41px;
+}
+
+.header {
+   background-image: url("https://www.lepoint.fr/images/2019/03/18/18222983lpw-18223093-article-jpg_6062312_980x426.jpg");
+    min-height:600px;
+    background-size: cover;
+    animation: animate 25s ease-out infinite;      
+} @keyframes animate {
+    0%,100%{
+        background-image: url("https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/africa/tannery-fez-morocco.adapt.1900.1.jpg");
+    }
+    20%{
+        background-image: url("https://www.woimacorporation.com/wp-content/uploads/2019/01/Landscape-of-Morocco-Drowning-in-Waste-WOIMA-Corporation.jpg");
+    }
+    40%{
+        background-image: url("https://www.meeting-point.com/wp-content/uploads/2019/09/Morocco.jpg");
+    }
+    60%{
+        background-image: url("https://grandcircle.scene7.com/is/image/GrandCircle/T30417/ArticleBanner");
+    }
+    80%{
+        background-image: url("https://www.moroccodesertadventures.com/wp-content/uploads/2019/05/morocco-desert-tours.jpg");
+    }
+}
+}
+.nav a{
+    text-decoration: none;
+    padding-left: 7px;
+    color: black;
+}
+.p0{
+    margin-left: 200px;
+    color:white;
+    font-size: 20px;
+}
+.logo1{
+    width:80px;
+     height: 80px;
+    margin-top:20px;
+    margin-left: 20px;
+}
+.titreheader{
+    margin-left: 200px;
+    margin-top: 150px;
+    
+}
+.couverture_a{
+    border: 1px solid black;
+    background-image: url(https://www.etapes-marocaines.com/files/2018/06/randonnee-essaouira.jpeg);
+    width: auto;
+    height: 694px;
+    color: white;
+    margin-top: 5%;
+ background-size: cover;
+
+}
+.disc_1{
+    background-color: rgba(0,0,0,0.5);
+    width: 600px;
+    height: 500px;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+.disc_1 h1{
+    width: 400px;
+    padding: 50px;
+}
+.disc_1 h3{
+    margin-left: 50px;
+}
+.disc_1 p{
+    width: 520px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    line-height: 32px;
+}
+
+
+
+.container-1{
+    margin-right: 20%;
+    display: flex;
+    width: 100%;
+    border: 1px ;
+    flex-direction: row;
+    height: 100%;
+}
+.img1{
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+    
+   
+}
+.text{
+    flex: 1;
+    text-align: center;
+    background-color: #E2EAF0;
+    
+    
+    
+}
+.ha{
+    color: black;
+   margin-top: 60px;
+   opacity: 83%;
+   
+   
+}
+i{
+    display: none;
+}
+.hb{
+    margin-top: 30px;
+    opacity: 53%;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.menu{
+    float: right;
+    line-height: 0px;
+   
+}
+.menu a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+.show-meni-btn1,.hide-meni-btn{
+    transition: 0.4s;
+   font-size: 50px;
+   cursor: pointer;
+   display: none;
+}
+.show-menu-btn1{
+    float: right;
+}
+.menu a:hover,
+.show-meni-btn1:hover,.hide-meni-btn{
+    color: #3498db;
+}
+#chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+
+
+}
+.show-menu-btn1 i{
+    line-height: 40px;
+    color: black;
+    font-size: 30px;
+    
+    position: absolute;
+    right: 10px;
+    margin-top: -58px;
+
+    
+}
+@media (max-width: 750px){
+    .button2{
+        position: relative;
+        margin-top: 100px;
+        right: 54px;
+
+    }
+    .disc_1{
+        margin-left: 0px;
+       margin-top: 100px;
+        width: 100%;
+
+    }
+   
+    .container-1{
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    .text{
+        order: 1;
+        flex: 100%;
+    }
+    .img1{
+       order: 2;
+       flex: 100%;
+       
+    }
+    .disc_1 h1{
+        width: 100%;
+        padding: 50px;
+    }
+    .disc_1 h3{
+        margin-left: 50px;
+    }
+    .disc_1 p{
+        width: 100%;
+      line-height: 32px;
+    
+        
+    }
+    .couverture_a{
+        background-image: url("https://www.meeting-point.com/wp-content/uploads/2019/09/Morocco.jpg");
+    }
+  i{
+      display: block;
+
+  }
+   .hide-menu-btn{
+        display: block;
+        color: white;
+    }
+    .show-menu-btn1{
+        
+        display: block;
+        color: white;
+    }
+
+    .menu{
+        position: fixed;
+        width: 80%;
+        height: 600px;
+        background-color: #000;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 80px 0;
+        line-height: normal;
+        transform: 1s;
+
+    }
+    .menu a{
+        display: block;
+        padding: 20px;
+        color: white;
+    }
+    .hide-menu-btn{
+        position: absolute;
+        top: 20px;
+        right: 40px;
+    }
+    #chk:checked ~ .menu{
+        right: 0;
+    }
+
+
+}
+.container-1{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: white;
+
+    
+}
+.button2{
+    top:-40px;
+    background-color: #E2EAF0;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-right: 69px;
+    margin-left: 45%;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.button2:hover , .button2:active{
+    background-color: white;
+    border:1px solid black;
+    height: 50px;
+    width: 220px;
+    margin-left: 44%;
+
+}
+/* css foter */
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin: 0;
+    /*border: 2px solid black;*/
+    margin-top: 7%;
+    background-color: #3D575A;
+  
+  
+  }
+  #foot-logo{
+    margin-left: 3%;
+     margin-top: 2%;
+     height:70px;
+     width:90px;
+  }
+  #foot-p1{
+    font-family: courier;
+      font-size: 30px;
+      position: relative;
+      left: 128px;
+     top: -61px;
+  }
+  #foot-p2{
+    font-size: 18px;
+    position: relative;
+      left: 126px;
+      color: white;
+      bottom: 40px;
+  }
+  .azer{
+    flex-basis: 35%;
+  }
+  .med{
+  flex-basis: 25%;
+  }
+  #med-h{
+    margin-top: 40px;
+      font-family: Open Sans;
+      position: relative;
+      top: -20px;
+      left: 77px;
+  }
+  .aqw{
+    flex-basis: 40%;
+  }
+  #aqw-h{
+    margin-top: 40px;
+      font-family: Open Sans;
+      position: relative;
+      left: 178px;
+      bottom: 17px;
+  }
+  #aqw-p1{
+       font-size: 16px;
+      position: relative;
+      left: 173px;
+      color: white;
+  }
+  #aqw-p2{
+    font-size: 18px;
+      position: relative;
+      left: 171px;
+      top: 16px;
+      color: white;
+  }
+  #span-p2{
+    color: #76BAF2;
+  }
+  .foot-icon{
+    position: relative;
+      left: 33px;
+      top: -5px;
+  }
+  #facebook{
+    padding: 2px;
+    font-size: 40px;
+    color: white;
+    margin-top: 5%;
+      margin-left: 23%;
+  }
+  #google{
+    padding: 2px;
+    font-size: 40px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  #insta{
+    padding: 2px;
+    font-size: 40px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+  #twit{
+    padding: 2px;
+    font-size: 40px;
+      color: white; 
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .san{
+      justify-content: center;
+      position: relative;
+      left: 128px;
+      top: -11px;
+  }
+  .san a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  
+  }
+  
+  
+  .mede{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 45px;
+    background-color: #688095;
+  }
+  .mede1{
+    flex-basis: 50%;
+    color: white;
+    text-align: center;
+    position: relative;
+       top: 6px;
+  }
+  .mede2{
+    flex-basis: 50%;
+    color: white;
+    text-align: center;
+    position: relative;
+     top: 6px;
+  }
+  #s1{
+    position: relative;
+      left: 193px;
+  }
+  #s2{
+    position: relative;
+      left: 218px;
+  }
+  #mede1-a{
+    position: relative;
+     right: 225px;
+  }
+  /*media footer  */
+  @media (max-width: 750px){
+.foot{
+  flex-direction: column;
+
+}
+#aqw-h{
+  position: relative;
+  bottom: 51px;
+}
+#aqw-p1{
+  position: relative;
+    left: 2px;
+    text-align-last: center;
+    bottom: 42px;
+}
+#aqw-p2{
+  position: relative;
+    left: 75px;
+    bottom: 16px;
+    top: -30px;
+}
+.foot-icon{
+  position: relative;
+    top: -24px;
+    left: 12px;
+}
+.med{
+  display: none;
+}
+#s1{
+  position: relative;
+  left: 113px;
+  }
+#s2{
+  position: relative;
+  left: -1px;
+    top: 18px;
+}
+.mede2 {
+position: relative;
+bottom: 444px;
+}
+#mede1-a{
+  position: relative;
+     right: 5px;
+}
+.mede{
+      position: relative;
+}
+.mede1-mobile{
+      font-size: 14px;
+      flex-basis: 50%;
+  color: white;
+  text-align: center;
+  position: relative;
+     top: 6px;
+}
+.mede2-mobile{
+  font-size: 14px;
+    flex-basis: 50%;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 6px;
+}
+.social-media{
+  position: relative;
+  right: 45px;
+  top: 107px;
+}
+
+.main-d4 {
+  left: 15px !important;
+
+}
+
+
+
+

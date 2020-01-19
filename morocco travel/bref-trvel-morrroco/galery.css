@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+}
+
+
+.header {
+    background-image: url(https://wallpaperaccess.com/full/711414.jpg);
+    min-height:600px;
+    background-size: cover;
+}
+
+    
+
+@media (max-width: 750px){
+ 
+    .titreheader{
+        text-align: center;
+    }
+    .h11{
+        position: relative;
+          right: 40px;
+      }
+      
+      .titreheader{
+          margin-left: 0px;
+          opacity: 200%;
+      }
+      .p0{
+          text-align: center;
+          margin-left: 0px;
+          margin-top: 50px;
+      }
+
+
+}
+
+.h11{
+    color: #707070;
+    margin-left: 45%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-width: 750px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .h11{
+    position: relative;
+      right: 40px;
+  }
+
+
+
+}
+
+
+.button2{
+    top:-40px;
+    background-color: #E2EAF0;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-right: 69px;
+    margin-left: 45%;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.button2:hover , .button2:active{
+    background-color: white;
+    border:1px solid black;
+    height: 50px;
+    width: 220px;
+    margin-left: 44%;
+
+}
