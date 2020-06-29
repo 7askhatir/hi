@@ -13,15 +13,17 @@ Password : 1234567 .
 
 4- Configuration le wordpress et creation User Admin.
 
-5- recherche du theme e-commerce avec plugin Elementor integrer. 
+5-Créer le plugin qui s'appelle "my plugin".
 
-6- instalation des plagen suivants:
-- WooCommerce
-- Weglot Translate
-- Yoast SEO
-7- modifie et ajaute des produits et des categouries.
+6-Activer cette plugin.
 
-8- j'ajoute deux utilisateurs avec son role : 1er user je donner le role editeur et le 2eme user je donnée le role Auteur.
+7-Créer un menu pour le plugin et ajoute l'icône (dashicons-welcome-write-blog).
+
+8-creér le footer de cette page(Ajouter le copyright).
+
+9-utilise cette plugin dans site e-commerce(coper dossier "my plugin" dans le brief précédent (C:\xampp\htdocs\wordpress\wp-content\plugins)).
+
+
   
   
   
